@@ -7,7 +7,7 @@ var addressSchema = new Schema({
     city : {type : String, required: true},
     state : {type : String, required: true},
     pin : Number,
-    user : mongoose.Types.ObjectId
+    user : Schema.Types.ObjectId
 
 }, {timestamps: true});
 
